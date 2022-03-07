@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/radhya/static/css/main.9bfffe7e.css",
+    "main.js": "/radhya/static/js/main.c9129af1.js",
+    "static/js/787.c8d48ba3.chunk.js": "/radhya/static/js/787.c8d48ba3.chunk.js",
+    "static/media/image2.jpeg": "/radhya/static/media/image2.1ea83261a1861beda3d5.jpeg",
+    "static/media/image1.jpeg": "/radhya/static/media/image1.fbdf9e8bade13ee98b41.jpeg",
+    "static/media/book-1.png": "/radhya/static/media/book-1.77a9bd08197f1ed72df9.png",
+    "static/media/book-2.png": "/radhya/static/media/book-2.9cfd0b66a19b618dc152.png",
+    "static/media/social-instagram.png": "/radhya/static/media/social-instagram.6819a411bf60e572e71e.png",
+    "static/media/book-3.png": "/radhya/static/media/book-3.facd5b09521264642e1e.png",
+    "static/media/social-twitter.png": "/radhya/static/media/social-twitter.6c1feab5280347eb9fd3.png",
+    "static/media/social-youtube.png": "/radhya/static/media/social-youtube.c915233c125c781429ba.png",
+    "static/media/slick.svg": "/radhya/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/radhya/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/radhya/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/radhya/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/radhya/index.html",
+    "main.9bfffe7e.css.map": "/radhya/static/css/main.9bfffe7e.css.map",
+    "main.c9129af1.js.map": "/radhya/static/js/main.c9129af1.js.map",
+    "787.c8d48ba3.chunk.js.map": "/radhya/static/js/787.c8d48ba3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bfffe7e.css",
+    "static/js/main.c9129af1.js"
+  ]
+}
