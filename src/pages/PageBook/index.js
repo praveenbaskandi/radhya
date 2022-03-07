@@ -1,12 +1,15 @@
 import BookUi from '../../components/BookUi';
 import imgFacebook from '../../assets/social-facebook.png';
-import "./style.css";
+import * as S from "./style";
 
 const PageBook = () => (
-        <div style={{height: '500px', width: "100%" }} className='content'>
+        <S.Container>
+          <S.Heading>Books Us</S.Heading>
+            <S.BookBox>
             <BookUi bookName="aedfwef" bookImage={imgFacebook}/>
             <BookUi bookName="aedfwef" bookImage={imgFacebook}/>
-        </div>
+            </S.BookBox>
+        </S.Container>
 );
 
 export default PageBook;
