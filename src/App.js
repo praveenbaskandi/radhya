@@ -14,13 +14,8 @@ function App() {
         <Page3 />
         <Page4 />
         <PageBook />
-      <header className="App-header">
-        {/* <NavBar /> */}
+      {/* <header className="App-header">
         <h1>hello mellops</h1>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit weqwew<code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -29,7 +24,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

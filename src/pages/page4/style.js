@@ -32,8 +32,13 @@ export const SocialContainer = styled.div`
 
 export const SocialFacebook = styled.div`
   &:hover {
-    background-color: #4267B2;
-    cursor: pointer;
+   background-color: #4267B2;
+   cursor: pointer;
+   transform: scale(1.5);
+  }
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
   }
   height: 100px;
   width: 100px;
@@ -47,6 +52,11 @@ export const SocialTwitter = styled.div`
   &:hover {
     background-color: #00acee;
     cursor: pointer;
+    transform: scale(1.5);
+  }
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
   }
   height: 100px;
   width: 100px;
@@ -60,6 +70,11 @@ export const SocialInsta = styled.div`
   &:hover {
     background-color: #8a3ab9;
     cursor: pointer;
+    transform: scale(1.5);
+  }
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
   }
   height: 100px;
   width: 100px;
@@ -73,6 +88,11 @@ export const SocialYoutube = styled.div`
   &:hover {
     background-color: #c4302b;
     cursor: pointer;
+    transform: scale(1.5);
+  }
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
   }
   height: 100px;
   width: 100px;
@@ -86,6 +106,11 @@ export const SocialLinkdin = styled.div`
   &:hover {
     background-color: #0e76a8;
     cursor: pointer;
+    transform: scale(1.5);
+  }
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
   }
   height: 100px;
   width: 100px;
