@@ -11,6 +11,8 @@ const Colors = {
     colorGreen: '#6FD1B5',
     colorBlack: '#2B2C37',
     colorBlue: '#9AB8FA',
+    colorButton: '#2427B7',
+    colorButton50: '#2427B750',
   };
 
   module.exports = {

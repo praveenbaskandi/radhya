@@ -3,13 +3,17 @@ import CardFlip from '../../components/CardFlip';
 import imgBook1 from '../../assets/book-1.png';
 import imgBook2 from '../../assets/book-2.png';
 import imgBook3 from '../../assets/book-3.png';
+import useSelect from '../selector';
 import * as S from "./style";
 
-const PageBook = () => (
+const PageBook = () => {
+  const {translations} = useSelect();
+
+  return(
         <S.Container>
           <S.ContainerInside>
             <S.CategoryBox>
-          <S.Heading>Books Us</S.Heading>
+          <S.Heading>{translations.book}</S.Heading>
           </S.CategoryBox>
             <S.BookBox>
               <S.ContainerInside>
@@ -24,5 +28,6 @@ const PageBook = () => (
             </S.ContainerInside>
         </S.Container>
 );
+  };
 
 export default PageBook;

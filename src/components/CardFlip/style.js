@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import {Colors} from '../../utils/Colors';
+
 export const Container = styled.div`
   padding: 20px;
   display: flex;
@@ -43,12 +45,16 @@ export const Content = styled.div`
 
 export const Button = styled.button`
   font-size: 15px;
-  background-color: #2427B7;
-  border-color: #2427B7;
+  background-color: ${Colors.colorButton};
+  border-color: ${Colors.colorButton};
   margin-top: 20px;
-  color: #FFFFFF;
+  color: ${Colors.white};
   height: 40px;
   border-radius: 50px;
+  &:hover {
+    background-color: ${Colors.colorButton50};
+    cursor: pointer;
+   }
 `;
 
 export const ImageView = styled.img`

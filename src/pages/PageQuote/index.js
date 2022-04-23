@@ -12,7 +12,7 @@ return(
             <S.Heading>{translations.quotes}</S.Heading>
             </S.CategoryBox>
             <S.SocialBox>
-            <S.CarouselView autoPlay infiniteLoop showArrows={false} stopOnHover>
+            <S.CarouselView autoPlay infiniteLoop showArrows={false} stopOnHover dynamicHeight={false}> 
                     <S.Quotes>{translations.quotes1}</S.Quotes>
                     <S.Quotes>{translations.quotes2}</S.Quotes>
                     <S.Quotes>{translations.quotes3}</S.Quotes>

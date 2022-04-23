@@ -37,7 +37,7 @@ export const SocialBox = styled.div`
 export const Heading = styled.h1`
   font-size: 2rem;
   text-align: center;
-  transform: rotate(270deg);
+  transform: rotate(90deg);
   @media (max-width: 768px) {
     font-size: 1rem;
   }

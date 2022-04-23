@@ -9,7 +9,7 @@ return (
         <S.Container>
         <S.ContainerInside>
         <S.AboutBox>
-            <S.Heading>Books Us</S.Heading>
+            <S.Heading>{translations.aboutUs}</S.Heading>
             <S.SubHeading>{translations.redhyaIsAnIndianAuthor}</S.SubHeading>
         </S.AboutBox>
         <S.Image src={faceImg}/>
