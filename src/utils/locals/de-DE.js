@@ -18,13 +18,8 @@ module.exports = {
     },
     screen: {
       climate: 'Climate',
-      f: '°F',
-      c: '°C',
-      o: 'o',
       notation: '°',
-      nytNewsFeed: 'NYT News Feed',
       section: 'Section',
-      category: ['World', 'Arts', 'Politics', 'Sports', 'Movie', 'Technology'],
       published: 'Published: ',
       by: 'By: ',
       noDataToDisplay: 'No data to display list is empty',
